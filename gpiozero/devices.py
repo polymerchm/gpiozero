@@ -16,7 +16,7 @@ import warnings
 from collections import namedtuple
 from itertools import chain
 from types import FunctionType
-from importlib.metadata import entry_points
+from importlib_metadata import entry_points
 
 from .threads import _threads_shutdown
 from .mixins import (

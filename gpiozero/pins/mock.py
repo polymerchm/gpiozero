@@ -13,7 +13,7 @@ from collections import namedtuple
 from time import time, sleep, monotonic
 from threading import Thread, Event
 from math import isclose
-from importlib.metadata import entry_points
+from importlib_metadata import entry_points
 
 from ..exc import (
     PinPWMUnsupported,

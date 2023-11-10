@@ -10,7 +10,7 @@ import os
 import sys
 import argparse
 
-from importlib.metadata import version
+from importlib_metadata import version
 
 
 class CliTool:
